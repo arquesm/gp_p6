@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>//////// Magda Arques \\\\\\\\</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Diatype'; 
+            background-color: black;
+        }
+        ul{
+            position: fixed;
+            mix-blend-mode:difference;
+            z-index: 2;
+            bottom: 10vh;
+            transform: rotate(-5deg);
+            font-size: 3em;
+        }
+        /* ul:hover{
+            transform: rotate(5deg);
+            text-align: right;
+
+        } */
+        ul:hover li{
+            float: right; 
+            text-align: right;
+        }
+        ul li{
+            float: left;
+            text-align: left;
+            padding: .1em .2em;
+            font-family: 'Xanh Mono', monospace;
+            list-style-type: none;
+        }
+        a,li{
+            color: black;
+            text-decoration: none;
+        }
+        a, li{
+            background-color: white;
+        }
+        a:hover{
+            color: white;
+            padding: .1em .2em;
+            background-color: black;
+        }
+        h1,h2,h3,h4,h5,h6{
+            float: left;
+            transform: scale(2);
+            padding: 1em;
+        }
+        header{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 10vh;
+        }
+        hgroup{
+            display: flex;
+            padding-right: -2em;
+            top: 0;
+            font-family: 'Xanh Mono', monospace;
+            color: white;
+        }
+        header hgroup:nth-child(2){
+            margin-bottom: -3em;
+        }
+        #cont_img2{
+            position: fixed;
+            top: 0;
+            left: 0;
+            mix-blend-mode: difference;
+            width: 50vw;
+            height: 100vh;
+            background-image: url('img/jo_2.jpg');
+            background-size:180%;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        #cont_img{
+            position: absolute;
+            top:0;
+            left:0;
+            z-index: -2;
+            margin: 30vh 0 0 40vw;
+            width: 50vw;
+            height: 100vh;
+            background-image: url('img/jo_5.jpg');
+            background-size:200%;
+            background-position: top right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1>m</h1>
+            <h2>a</h2>
+            <h3>g</h3>
+            <h4>d</h4>
+            <h5>a</h5>
+        </hgroup>
+        <hgroup>
+            <h1>a</h1>
+            <h2>r</h2>
+            <h3>q</h3>
+            <h4>u</h4>
+            <h5>e</h5>
+            <h6>s</h6>
+        </hgroup>
+    </header>
+    <main>
+        <ul>
+            <li><a href="">p1 sitioweb</a></li>
+            <li><a href="">p2 recursos gràfics</a></li>
+            <li><a href="">p3.1 disseny</a></li>
+            <li><a href="">p3.2 laweb</a></li> 
+            <li><a href="">p4 fonts i displayflex</a></li>
+            <li><a href="">p5.1 Flexible Visual Systems disseny</a></li>
+            <li><a href="https://arquesm.github.io/gp_p5/">p5.2 laweb fvs responsive</a></li>
+            <li><a href="https://www.figma.com/file/0t6jOBbVND1Q7l8yO3hjbG/flexible_visual_systems?type=design&node-id=0%3A1&mode=design&t=YYanR4D6icaDXoFV-1">p6.1 el vostre FVS</a></li>
+            <li><a href="">p6.2 laweb el vostre FVS</a></li>
+            <li><a href="">p7.1 disseny</a></li>
+            <li><a href="">p7.2 portfolio</a></li>
+            <li><a href="https://www.freecodecamp.org/magdaarques">freecodecamp</a></li>
+        </ul>
+        <div id="cont_img2"></div>
+        <div id="cont_img"></div>
+    </main>
+   
+</body>
+</html>
